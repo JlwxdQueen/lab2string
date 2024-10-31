@@ -55,8 +55,8 @@ int main() {
             break;
         }
         case 3: {
-            const char *input_filename = "D:/Algoth/Lab2string/stringwork/file1.txt";
-            const char *output_filename = "D:/Algoth/Lab2string/stringwork/file2.txt";
+            const char *input_filename = "../stringwork/file1.txt";
+            const char *output_filename = "../stringwork/file2.txt";
 
             char *str = (char *)malloc(1);
             if (str == nullptr) {
@@ -78,7 +78,7 @@ int main() {
             }
             str[length] = '\0';
 
-            writeStringToFile("D:/Algoth/Lab2string/stringwork/file1.txt", str);
+            writeStringToFile("../stringwork/file1.txt", str);
             free(str);
 
             process_file_string(input_filename, output_filename);

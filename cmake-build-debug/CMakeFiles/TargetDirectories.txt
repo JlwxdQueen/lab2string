@@ -1,3 +1,0 @@
-D:/Algoth/Lab2string/cmake-build-debug/CMakeFiles/Lab1string.dir
-D:/Algoth/Lab2string/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Algoth/Lab2string/cmake-build-debug/CMakeFiles/rebuild_cache.dir
